@@ -47,7 +47,7 @@ RUN docker-php-ext-install \
 
 
 RUN curl -sS https://getcomposer.org/installer | \
-  php -- --version=2.0.12 --install-dir=/usr/local/bin --filename=composer
+  php --  --install-dir=/usr/local/bin --filename=composer
 
 COPY ./www.conf /usr/local/etc/php-fpm.d/
 COPY ./php.ini /usr/local/etc/php/

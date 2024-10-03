@@ -1,0 +1,9 @@
+2024-10-03 13:37:31 startup archives unpack
+2024-10-03 13:37:31 install nano:amd64 <none> 3.2-3+deb10u1
+2024-10-03 13:37:31 status half-installed nano:amd64 3.2-3+deb10u1
+2024-10-03 13:37:31 status unpacked nano:amd64 3.2-3+deb10u1
+2024-10-03 13:37:31 startup packages configure
+2024-10-03 13:37:31 configure nano:amd64 3.2-3+deb10u1 <none>
+2024-10-03 13:37:31 status unpacked nano:amd64 3.2-3+deb10u1
+2024-10-03 13:37:31 status half-configured nano:amd64 3.2-3+deb10u1
+2024-10-03 13:37:31 status installed nano:amd64 3.2-3+deb10u1

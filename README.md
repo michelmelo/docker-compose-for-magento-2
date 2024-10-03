@@ -39,12 +39,12 @@ MailHog | latest
 
 3. Create a new Composer project using the Magento Open Source:
     ```
-    docker-compose exec phpfpm composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
+    docker-compose exec phpfpm composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition2.3.7-p3 .
     ```
 
 4. Install Magento (Example. You can customize to you. [Installation Guide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html)):
     ```
-    docker-compose exec -T phpfpm bin/magento setup:install --base-url=http://magento-dev.lh/ --db-host=db --db-name=magento --db-user=magento --db-password=magento --backend-frontname=admin  --admin-firstname=admin --admin-lastname=admin --admin-email=yourname@domain.com --admin-user=admin --admin-password=admin1234 --language=hu_HU --currency=HUF --timezone=Europe/Budapest --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=elasticsearch --elasticsearch-port=9200 --elasticsearch-index-prefix=magento
+    docker-compose exec -T phpfpm bin/magento setup:install --base-url=http://localhost/ --db-host=db --db-name=magento --db-user=magento --db-password=magento --backend-frontname=admin  --admin-firstname=admin --admin-lastname=admin --admin-email=yourname@domain.com --admin-user=admin --admin-password=admin1234 --language=pt_PT --currency=EUR --timezone=Europe/Lisbon --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=elasticsearch --elasticsearch-port=9200 --elasticsearch-index-prefix=magento
     ```
 
 After above completes running, you should be able to access your site at http://magento-dev.lh and http://magento-dev.lh/admin
